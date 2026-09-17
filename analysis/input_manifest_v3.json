@@ -1,0 +1,60 @@
+{
+  "manifest_role": "portable_release_inputs",
+  "path_base": "release_candidate",
+  "historical_record_status": "Current portable paths; prior legacy source-location labels are historical only and are not active inputs.",
+  "historical_record_path": "analysis/input_manifest_v3_historical.json",
+  "analysis_seed": 20260809,
+  "bootstrap_iterations": 10000,
+  "analysis_date": "2026-09-01",
+  "inputs": [
+    {
+      "path": "data/judgments_repaired.csv",
+      "bytes": 48000581,
+      "sha256": "4d37e9e26fa19ec54c1a0e60ac9562aee16ef92d6ea75fbbe73ba11797d27454"
+    },
+    {
+      "path": "human_validation/n140_master_unblinded_postpatch_v3.xlsx",
+      "bytes": 280661,
+      "sha256": "eeca345c5cabfe4ef8760235132110bb717c18f4e7b2c2ed6d416da051319bdf"
+    },
+    {
+      "path": "human_validation/n140_rater_A_blinded.xlsx",
+      "bytes": 271159,
+      "sha256": "5334d52add8703e2595b2c9fffc6619027d05647c4c1d638559e4503b5f968e5"
+    },
+    {
+      "path": "human_validation/n140_rater_B_blinded.xlsx",
+      "bytes": 268903,
+      "sha256": "491de9d32e3cc03f641e557857764c878118e83eafcdeedc0551b3d3d2cd7104"
+    },
+    {
+      "path": "human_validation/adjudication_summary_13_rows.xlsx",
+      "bytes": 7837,
+      "sha256": "2637ff91bd42dd8d2c30adf1856a445c0e8077d7726ecc31a76dd623207cd4ae"
+    },
+    {
+      "path": "analysis/inputs/retractions_selected_100.csv",
+      "bytes": 179160,
+      "sha256": "386b2e488be7532e2fd3b3054a45c60f244cfda5a360ad0b5f3ce95c7beeaf2d"
+    },
+    {
+      "path": "analysis/inputs/retraction_cause_audit_source.csv",
+      "bytes": 50181,
+      "sha256": "099800162c086a41396a0b8fcd7e9047c14a55a129612d54cb12381a33cfc8c7"
+    },
+    {
+      "path": "analysis/inputs/retraction_cause_overrides_v3.csv",
+      "bytes": 1411,
+      "sha256": "efcab083dd936398f171a4b867744afde361fee49393fd9474911dfc198db337"
+    }
+  ],
+  "software_versions": {
+    "python": "3.13.12",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.11.1"
+  }
+}

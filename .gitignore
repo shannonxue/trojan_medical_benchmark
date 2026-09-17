@@ -1,0 +1,57 @@
+# macOS / editors
+.DS_Store
+._*
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX / Tectonic auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.xdv
+
+# Temporary and staging outputs
+.release_candidate_staging/
+.workbuddy/
+release_candidate.zip
+data/repaired_rerun/judgments/judgment_records_repaired.jsonl
+data/repaired_rerun/analysis/phase_b_item_scores_repaired.csv
+~$*.xlsx
+*.bak
+*.pre-merge
+
+# Internal materials not part of the public release (kept local, never published)
+_internal/
+
+# Regenerable pipeline outputs (recreated by analysis/scripts/analyze_v3.py;
+# shipped in _internal/ for the public release to stay lean)
+analysis/figures/
+analysis/benchmark_inventory.json
+analysis/tables/judge_scores_v3.csv
+analysis/tables/item_metadata_v3.csv
+analysis/tables/item_metadata_title_mismatches.csv
+analysis/tables/pooled_results_v3.csv
+analysis/supplementary_materials.tex
+analysis/supplementary_materials.pdf
+
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*

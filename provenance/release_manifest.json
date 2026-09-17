@@ -1,0 +1,13 @@
+{
+  "release_candidate": "V3",
+  "public_release_date": "2026-09-17",
+  "file_count_excluding_manifests": 129,
+  "bytes_total_excluding_manifests": 78898970,
+  "includes_raw_model_responses": true,
+  "includes_corrected_human_sampling_manifest": true,
+  "includes_human_validation_outputs": true,
+  "includes_reproducible_analysis_environment": true,
+  "secret_pattern_hits": [],
+  "external_publishing": "public at https://github.com/shannonxue/trojan_medical_benchmark (CC BY 4.0)",
+  "reviewer_access": "public repository; no credentials required"
+}

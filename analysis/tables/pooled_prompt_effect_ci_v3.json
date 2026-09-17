@@ -1,0 +1,19 @@
+{
+  "item_cluster": {
+    "delta_norm_ci_low": 16.32142857142857,
+    "delta_norm_ci_high": 22.393749999999986,
+    "delta_poll_ci_low": -0.1935714285714286,
+    "delta_poll_ci_high": -0.12571428571428572,
+    "delta_rec_ci_low": 0.18714285714285714,
+    "delta_rec_ci_high": 0.2692857142857143
+  },
+  "two_way_model_item": {
+    "two_way_delta_norm_ci_low": 12.392857142857142,
+    "two_way_delta_norm_ci_high": 26.96428571428571,
+    "two_way_delta_poll_ci_low": -0.22285714285714286,
+    "two_way_delta_poll_ci_high": -0.10214285714285715
+  },
+  "point_delta_norm": 19.285714285714285,
+  "point_delta_poll": -0.15857142857142856,
+  "point_delta_recognised": 0.22714285714285715
+}

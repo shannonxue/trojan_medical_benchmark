@@ -1,0 +1,19 @@
+{
+  "n": 140,
+  "ab_agreement_n": 127,
+  "ab_agreement_rate": 0.9071428571428571,
+  "cohen_kappa_ab": 0.8569182389937107,
+  "cohen_kappa_ab_ci_low": 0.7787947073604417,
+  "cohen_kappa_ab_ci_high": 0.9235815306206155,
+  "adjudicated_n": 13,
+  "final_label_counts": {
+    "Neutral": 60,
+    "Polluted": 48,
+    "Recognised": 32
+  },
+  "automated_label_counts": {
+    "Neutral": 55,
+    "Polluted": 47,
+    "Recognised": 38
+  }
+}

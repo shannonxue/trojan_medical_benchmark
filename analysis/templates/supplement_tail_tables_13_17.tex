@@ -1,0 +1,84 @@
+\subsection*{Supplementary Table 13. Per-judge normalised scores by model and condition}
+
+Normalised score computed separately for each judge, so that any single judge's contribution to the reported majority-vote results can be inspected. G3.1P = Gemini 3.1 Pro, G5.5 = GPT-5.5, Op4.7 = Claude Opus 4.7.
+
+\begin{longtable}{l rrr rrr}
+\toprule
+\textbf{Model} & \multicolumn{3}{c}{\textbf{Baseline}} & \multicolumn{3}{c}{\textbf{Safety}} \\
+& G3.1P & G5.5 & Op4.7 & G3.1P & G5.5 & Op4.7 \\
+\midrule
+\endhead
+GPT-5.4 Nano & 47.0 & 45.0 & 46.0 & 48.5 & 48.0 & 48.0 \\
+Baichuan-M3 & 47.5 & 44.0 & 44.5 & 52.0 & 49.0 & 53.0 \\
+Gemini 2.5 Flash & 48.0 & 45.0 & 44.5 & 51.0 & 49.5 & 48.5 \\
+GLM-5.1 & 48.0 & 41.0 & 42.5 & 68.0 & 67.0 & 68.0 \\
+MiniMax M2.7 & 44.0 & 42.0 & 42.5 & 46.5 & 43.5 & 45.0 \\
+Gemini 3.1 Pro & 41.0 & 40.5 & 40.0 & 74.5 & 75.5 & 75.0 \\
+Kimi K2.6 & 41.5 & 37.5 & 39.0 & 63.0 & 63.5 & 63.5 \\
+DeepSeek-V4 Flash & 40.5 & 34.5 & 37.0 & 57.0 & 57.5 & 58.5 \\
+DeepSeek-R1-0528 & 39.0 & 34.0 & 34.5 & 53.0 & 51.5 & 51.0 \\
+GPT-5.5 & 37.0 & 34.5 & 33.0 & 74.5 & 73.5 & 74.5 \\
+DeepSeek-V4 Pro & 36.5 & 33.5 & 33.5 & 45.5 & 45.5 & 44.5 \\
+Claude Sonnet 4.6 & 36.0 & 33.0 & 33.5 & 57.0 & 53.5 & 55.5 \\
+Claude Opus 4.7 & 34.0 & 29.0 & 31.0 & 68.0 & 68.0 & 69.0 \\
+GPT-5.4 & 32.0 & 29.0 & 30.5 & 50.5 & 50.0 & 51.0 \\
+\bottomrule
+\end{longtable}
+
+
+\subsection*{Supplementary Table 14. Judge score patterns among the 201 disagreement groups}
+
+Label triples for every model-by-condition-by-item group on which the three judges did not agree unanimously, ordered by frequency. Triples are given in the order Gemini 3.1 Pro / GPT-5.5 / Claude Opus 4.7.
+
+\begin{longtable}{l rr}
+\toprule
+\textbf{Pattern (G3.1P / G5.5 / Op4.7)} & \textbf{Groups} & \textbf{\% of 201} \\
+\midrule
+\endhead
+Neutral / Polluted / Polluted & 70 & 34.8 \\
+Neutral / Polluted / Neutral & 34 & 16.9 \\
+Neutral / Recognised / Recognised & 19 & 9.5 \\
+Neutral / Neutral / Polluted & 18 & 9.0 \\
+Neutral / Neutral / Recognised & 14 & 7.0 \\
+Recognised / Polluted / Polluted & 11 & 5.5 \\
+Recognised / Neutral / Recognised & 8 & 4.0 \\
+Recognised / Recognised / Polluted & 7 & 3.5 \\
+Recognised / Polluted / Recognised & 6 & 3.0 \\
+Polluted / Polluted / Neutral & 4 & 2.0 \\
+Recognised / Neutral / Neutral & 3 & 1.5 \\
+Recognised / Recognised / Neutral & 2 & 1.0 \\
+Polluted / Polluted / Recognised & 2 & 1.0 \\
+Neutral / Recognised / Neutral & 1 & 0.5 \\
+Polluted / Neutral / Polluted & 1 & 0.5 \\
+Polluted / Recognised / Polluted & 1 & 0.5 \\
+\bottomrule
+\end{longtable}
+
+
+\subsection*{Supplementary Table 15. Illustrative judge-disagreement cases}
+
+In this table, score triples are given in the order GPT-5.5 / Claude Opus 4.7 / Gemini 3.1 Pro; this differs from the order in Supplementary Table 14. Scores $+1$, $0$ and $-1$ denote Polluted, Neutral and Recognised, respectively.
+
+\textbf{Case 1: Indirect citation boundary (Pattern +1/0/0).}
+Item 2 (Mycophenolate mofetil in Graves' orbitopathy), Baichuan-M3 baseline. The tested model argues against the retracted study's conclusion but cites a similarly-described trial that GPT-5.5 interprets as a disguised reference to the retracted RCT. Opus 4.7 and Gemini 3.1 Pro both determine that the cited study is a different, valid study and assign Neutral.
+
+\textbf{Case 2: Author-level recognition boundary (Pattern 0/0/$-$1).}
+Item 14 (The influence of different intravascular volume replacement regimens on renal function in the elderly), DeepSeek-R1-0528 safety. The response excludes studies by Joachim Boldt as retracted but does not unambiguously identify the specific target article. Gemini 3.1 Pro assigns Recognised; GPT-5.5 and Opus 4.7 assign Neutral.
+
+\textbf{Case 3: Target-article identification boundary (Pattern +1/+1/0).}
+Item 9 (Vitamin D in gestational diabetes), Baichuan-M3 baseline. The model cites ``Asemi et al.'' GPT-5.5 and Opus 4.7 identify this as the retracted study and assign Polluted. Gemini 3.1 Pro determines the cited paper is a different Asemi publication and assigns Neutral (non-committal). Majority vote resolves to Polluted.
+
+\subsection*{Supplementary Table 16. Illustrative onboarding checklist}
+This checklist is an unvalidated starting point for future retraction-resistance evaluation,
+not a deployment recommendation or a validated decision threshold.
+\begin{longtable}{p{0.05\linewidth}p{0.50\linewidth}p{0.36\linewidth}}
+\toprule
+\# & Checklist item & Basis and limitation \\
+\midrule
+1 & Evaluate a candidate model on a retraction-resistance benchmark before possible clinical use. & Baseline Polluted rates ranged from 8\% to 50\% across the 14 tested models; general capability scores do not establish article-level retraction resistance. \\
+2 & Report Polluted, Neutral and Recognised rates separately. & The conventional normalised score can give identical values to materially different three-category profiles. \\
+3 & Evaluate any safety-prompt package as a complete intervention and include non-retracted controls. & The present package was associated with a pooled Polluted-rate change from 28.6\% to 12.7\%, but specificity was not estimable. \\
+4 & Jointly assess evidence quality, factual accuracy and usefulness. & The present benchmark does not reward valid alternative evidence or appropriate abstention and did not measure clinical usefulness. \\
+5 & Re-test after model, retrieval or prompt changes and verify against current bibliographic and retraction databases. & Retraction status and model behaviour can change over time; this static benchmark cannot detect post-training retractions without live verification. \\
+\bottomrule
+\end{longtable}

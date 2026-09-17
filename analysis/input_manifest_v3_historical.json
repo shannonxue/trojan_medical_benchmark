@@ -1,0 +1,69 @@
+{
+  "record_role": "historical_input_manifest_snapshot",
+  "status": "superseded_by_input_manifest_v3.json",
+  "source_commit": "d92241bf27ee1ef8db4ea8df75f6129fc880bdfd",
+  "source_path": "reanalysis_v3/input_manifest_v3.json",
+  "source_sha256": "5eab063785baf4a2ded437d6c97d845393e52f000168cb481f1905d3954aa8d2",
+  "reason": "Preserves the prior V3_postaudit path labels and byte/hash record separately from the current working-copy input manifest. These historical paths are not active inputs.",
+  "historical_manifest": {
+    "analysis_seed": 20260809,
+    "bootstrap_iterations": 10000,
+    "analysis_date": "2026-09-01",
+    "inputs": [
+      {
+        "path": "provenance://v3-source/data/repaired_rerun/judgments/judgment_records_repaired.csv",
+        "bytes": 48218982,
+        "sha256": "7f315c614e74ab2c70016955fef0093a61b2982c78ceb13ea9e1a0eb7ecb43c8"
+      },
+      {
+        "path": "provenance://v3-source/human_validation/output_n140/n140_master_unblinded.xlsx",
+        "bytes": 280924,
+        "sha256": "a97d139ef30f2975f280f2d955df18cf5e29ad86cb04ee86df009b99b2b483b9"
+      },
+      {
+        "path": "provenance://v3-source/human_blind/n140_rater_A_blinded.xlsx",
+        "bytes": 322914,
+        "sha256": "6ab47e8b85c01cee444c798c7e38308edcf2418b3bf6cbc98fbcd86ecbc2f24e"
+      },
+      {
+        "path": "provenance://v3-source/human_blind/n140_rater_B_blinded.xlsx",
+        "bytes": 330630,
+        "sha256": "8d1e8ce7fc3794ab652cc555281d4835365c7e0e420dc3a67d6125471ee4a6a6"
+      },
+      {
+        "path": "provenance://v3-source/human_blind/n140_rater_C_blinded.xlsx",
+        "bytes": 46853,
+        "sha256": "2efd94a170cfca86626745ed37144410208ffc389294c8be95684069c2920106"
+      },
+      {
+        "path": "provenance://v3-source/human_blind/human_label不一致清单汇总.xlsx",
+        "bytes": 15725,
+        "sha256": "92a41d91cc31c9e63d5e6bfde40ccc594213747570ee4db3a48b80a65e106f40"
+      },
+      {
+        "path": "provenance://project-source/data/v2/trojan sensitivity dataset/dataset/retractions.csv",
+        "bytes": 179160,
+        "sha256": "386b2e488be7532e2fd3b3054a45c60f244cfda5a360ad0b5f3ce95c7beeaf2d"
+      },
+      {
+        "path": "provenance://v3-source/data/repaired_rerun/analysis/retraction_cause_audit_repaired.csv",
+        "bytes": 50181,
+        "sha256": "099800162c086a41396a0b8fcd7e9047c14a55a129612d54cb12381a33cfc8c7"
+      },
+      {
+        "path": "provenance://v3-source/reanalysis_v3/inputs/retraction_cause_overrides_v3.csv",
+        "bytes": 1411,
+        "sha256": "efcab083dd936398f171a4b867744afde361fee49393fd9474911dfc198db337"
+      }
+    ],
+    "software_versions": {
+      "python": "3.12.9",
+      "numpy": "2.5.2",
+      "pandas": "3.0.5",
+      "scipy": "1.18.1",
+      "statsmodels": "0.15.0",
+      "openpyxl": "3.1.5",
+      "matplotlib": "3.11.1"
+    }
+  }
+}

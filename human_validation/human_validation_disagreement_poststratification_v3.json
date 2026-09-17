@@ -1,0 +1,19 @@
+{
+  "stratum": "any_disagreement",
+  "population_n": 201,
+  "sample_n": 35,
+  "population_composition": {
+    "Polluted": 89,
+    "Neutral": 70,
+    "Recognised": 42
+  },
+  "sample_composition": {
+    "Polluted": 17,
+    "Neutral": 5,
+    "Recognised": 13
+  },
+  "stratum_agreement_as_published": 0.6673007511462296,
+  "stratum_agreement_post_stratified": 0.6163443761140557,
+  "overall_agreement_as_published": 0.9572217086834731,
+  "overall_agreement_post_stratified": 0.953563768904378
+}

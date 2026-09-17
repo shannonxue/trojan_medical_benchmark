@@ -1,0 +1,4 @@
+judge_family,model,n_observations,mean_own_family_score,mean_other_judges_score,delta_own_minus_other,polluted_rate_difference,recognised_rate_difference,paired_t_p,wilcoxon_p,wilcoxon_q_bh
+gpt55,gpt-5.5-2026-04-23,200,-0.08,-0.095,0.015,0.020000000000000018,0.0050000000000000044,0.2578624943257236,0.2935105954425006,0.8805317863275017
+opus47,claude-opus-4-7default,200,0.0,0.005,-0.005,0.030000000000000027,0.03500000000000003,0.8090571373439632,0.7719620390473717,1.0
+gemini31pro,google_gemini-3.1-pro-preview,200,-0.155,-0.155,0.0,0.0,0.0,1.0,1.0,1.0

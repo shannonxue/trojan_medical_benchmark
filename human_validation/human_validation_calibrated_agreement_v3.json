@@ -1,0 +1,12 @@
+{
+  "n_validation": 140,
+  "primary_estimator": "direct IPW",
+  "direct_ipw_agreement_primary": 0.9572217086834731,
+  "sensitivity_estimator": "post-stratified to known automated-label margins",
+  "poststratified_agreement_sensitivity": 0.957897473018708,
+  "automated_population_margins": {
+    "Polluted": 578,
+    "Neutral": 1758,
+    "Recognised": 464
+  }
+}

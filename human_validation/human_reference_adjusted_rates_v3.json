@@ -1,0 +1,44 @@
+{
+  "automated_population_observed": {
+    "Polluted": 0.20642857142857143,
+    "Neutral": 0.6278571428571429,
+    "Recognised": 0.1657142857142857
+  },
+  "automated_sample_design_weighted": {
+    "Polluted": 0.2104890289449113,
+    "Neutral": 0.6127509337068163,
+    "Recognised": 0.17676003734827261
+  },
+  "human_design_weighted_direct": {
+    "Polluted": 0.2201380018674136,
+    "Neutral": 0.6151024276377219,
+    "Recognised": 0.16475957049486462
+  },
+  "reference_adjusted_from_population_automated": {
+    "Polluted": 0.21628870023081884,
+    "Neutral": 0.6290791425649538,
+    "Recognised": 0.1546321572042274
+  },
+  "difference_adjusted_minus_automated_population": {
+    "Polluted": 0.009860128802247403,
+    "Neutral": 0.0012219997078108946,
+    "Recognised": -0.011082128510058298
+  },
+  "conditional_human_given_automated": {
+    "Polluted": {
+      "Polluted": 0.9441931387824583,
+      "Neutral": 0.024749935714897954,
+      "Recognised": 0.03524642121388199
+    },
+    "Neutral": {
+      "Polluted": 0.05580686121754174,
+      "Neutral": 0.9720958086113465,
+      "Recognised": 0.04357931435212086
+    },
+    "Recognised": {
+      "Polluted": 0.0,
+      "Neutral": 0.003154255673755488,
+      "Recognised": 0.9211742644339971
+    }
+  }
+}

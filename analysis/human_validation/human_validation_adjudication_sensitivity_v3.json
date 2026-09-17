@@ -1,0 +1,10 @@
+{
+  "n_adjudicated": 13,
+  "adjudicated_population_weight_share": 0.0602299827623357,
+  "primary_agreement_all_rows": 0.9572217086834731,
+  "agreement_on_ab_concordant_rows_only": 0.9790038425056578,
+  "lower_bound_all_adjudicated_counted_as_disagreement": 0.9200384579472816,
+  "upper_bound_all_adjudicated_counted_as_agreement": 0.9802684407096172,
+  "adjudicated_rows_matching_automated_label": 7,
+  "adjudicated_rows_where_automated_label_was_an_available_option": 11
+}

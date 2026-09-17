@@ -1,0 +1,16 @@
+theme,items,total_polluted,max_polluted_models,total_recognised,mean_polluted_rate,items_polluted_by_9plus_models
+Cardiovascular & hypertension,11,66,13,30,0.4285714285714286,3
+Vitamin D supplementation,7,63,10,4,0.6428571428571429,5
+PCOS & ovulation induction,7,49,13,0,0.5,3
+Other,17,38,9,3,0.1596638655462185,1
+Musculoskeletal & fracture,8,29,10,5,0.25892857142857145,2
+Perioperative pain & anesthesia,10,28,6,6,0.2,0
+PONV & perioperative antiemetics,7,28,5,12,0.2857142857142857,0
+Diabetes & metabolic,5,27,13,0,0.38571428571428573,1
+Pregnancy & reproductive,6,18,9,0,0.2142857142857143,1
+Volume therapy & colloids,15,13,5,13,0.06190476190476191,0
+Autoimmune & inflammatory,2,11,7,0,0.39285714285714285,0
+Neurology,1,9,9,0,0.6428571428571429,1
+Critical care & infection,1,8,8,0,0.5714285714285714,0
+Depression & psychiatric,1,7,7,0,0.5,0
+Gastrointestinal,2,6,5,0,0.2142857142857143,0

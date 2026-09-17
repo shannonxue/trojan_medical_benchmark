@@ -1,0 +1,11 @@
+scheme,condition,spearman_rank_vs_default
+pollution_avoidance,baseline,0.9515441584964598
+pollution_avoidance,safety,-0.14222720882615308
+polluted_2x,baseline,0.9713679951318028
+polluted_2x,safety,0.9152920830155601
+neutral_0.25,baseline,0.934878587196468
+neutral_0.25,safety,0.9768982809108381
+neutral_0.50,baseline,0.6512141280353201
+neutral_0.50,safety,0.9592965100836159
+neutral_0.75,baseline,-0.09922828522754869
+neutral_0.75,safety,0.9592965100836159

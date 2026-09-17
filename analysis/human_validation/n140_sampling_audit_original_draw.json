@@ -1,0 +1,54 @@
+{
+  "sample_n": 140,
+  "requested_seed": 20260809,
+  "effective_seed": 20260809,
+  "stratum_counts": {
+    "unanimous_neutral": 50,
+    "any_disagreement": 35,
+    "unanimous_polluted": 30,
+    "unanimous_recognised": 25
+  },
+  "condition_counts": {
+    "baseline": 70,
+    "safety": 70
+  },
+  "model_coverage": 14,
+  "models_sampled": [
+    "Baichuan-M3",
+    "Kimi-K2.6",
+    "claude-opus-4-7default",
+    "claude-sonnet-4-6default",
+    "deepseek-r1-0528",
+    "deepseek-v4-flash",
+    "deepseek-v4-pro",
+    "gemini-2.5-flash",
+    "google_gemini-3.1-pro-preview",
+    "gpt-5.4-2026-03-05",
+    "gpt-5.4-nano-2026-03-17",
+    "gpt-5.5-2026-04-23",
+    "minimaxai-minimax-m2.7",
+    "z-ai_glm-5.1"
+  ],
+  "group_ids_unique": true,
+  "allocation_source": "Locked Claude n=140 stratified validation plan (30/50/25/35)",
+  "condition_quota_plan": {
+    "unanimous_polluted": {
+      "baseline": 15,
+      "safety": 15
+    },
+    "unanimous_neutral": {
+      "baseline": 25,
+      "safety": 25
+    },
+    "unanimous_recognised": {
+      "baseline": 12,
+      "safety": 13
+    },
+    "any_disagreement": {
+      "baseline": 18,
+      "safety": 17
+    }
+  },
+  "population_source": "provenance://project-source/data/v2/repaired_rerun/repaired_population_for_n140.csv",
+  "repaired_judgment_source": "provenance://project-source/data/v2/repaired_rerun/judgments/judgment_records_repaired.csv"
+}

@@ -1,0 +1,26 @@
+{
+  "groups": 2800,
+  "unanimous_groups": 2599,
+  "disagreement_groups": 201,
+  "fleiss_kappa": 0.9100745671659488,
+  "pairwise": [
+    {
+      "judge_a": "gpt55",
+      "judge_b": "opus47",
+      "agreement_rate": 0.965,
+      "n": 2800
+    },
+    {
+      "judge_a": "gpt55",
+      "judge_b": "gemini31pro",
+      "agreement_rate": 0.945,
+      "n": 2800
+    },
+    {
+      "judge_a": "opus47",
+      "judge_b": "gemini31pro",
+      "agreement_rate": 0.9464285714285714,
+      "n": 2800
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+field,n,ab_agreement_n,ab_agreement_rate,both_not_applicable_n,applicable_both_n,applicable_agreement_n,applicable_agreement_rate,a_distribution,b_distribution
+conclusion_overlap,140,127,0.9071428571428571,74,57,53,0.9298245614035088,"{""Yes"": 35, ""Not applicable"": 80, ""No"": 24, ""Unclear"": 1}","{""Yes"": 35, ""No"": 28, ""Not applicable"": 77}"
+neutral_subtype,140,127,0.9071428571428571,74,57,53,0.9298245614035088,"{""Valid alternative evidence"": 49, ""Not applicable"": 80, ""Unverifiable/fabricated citation"": 3, ""No substantive evidence"": 3, ""Appropriate avoidance/abstention"": 5}","{""Valid alternative evidence"": 57, ""Not applicable"": 77, ""Unverifiable/fabricated citation"": 1, ""No substantive evidence"": 3, ""Appropriate avoidance/abstention"": 2}"
+republication_handling,140,140,1.0,138,2,2,1.0,"{""Not applicable"": 138, ""Incorrect"": 1, ""Correct"": 1}","{""Not applicable"": 138, ""Incorrect"": 1, ""Correct"": 1}"
+confidence,140,114,0.8142857142857143,0,140,114,0.8142857142857143,"{""High"": 96, ""Moderate"": 37, ""Low"": 7}","{""High"": 84, ""Moderate"": 50, ""Low"": 6}"
